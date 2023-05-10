@@ -1,0 +1,31 @@
+
+Create a Pod based on the YAML configuration file:
+kubectl apply -f https://k8s.io/examples/pods/commands.yaml
+
+List the running Pods:
+kubectl get pods
+
+List the running deployments:
+kubectl get deployments
+
+
+view
+kubectl get svc
+
+view services
+kubectl get services
+
+
+
+
+--Pod--
+
+A Pod always runs on a Node
+
+A pod is the smallest execution unit in Kubernetes.
+ A pod encapsulates one or more applications.
+ Pods are ephemeral by nature, if a pod (or the node it executes on) fails,
+ Kubernetes can automatically create a new replica of that pod to continue operations.
+
+
+ kubectl create -f kub.yaml

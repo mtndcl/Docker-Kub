@@ -1,0 +1,12 @@
+
+build docker image :
+docker build -t myapp1 .
+
+run docker image :
+docker run -d --name myappName -p 8080:8080 myappimage
+
+view docker container
+docker exec -t -i lala /bin/bash
+
+Birinci port : docker port
+ikinci port : uygulama port numarası
